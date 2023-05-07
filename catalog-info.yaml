@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dcalculator
+  description: Attempting to incorporate dcalculator onto backstage.io
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: guests
